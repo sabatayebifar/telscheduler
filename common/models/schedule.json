@@ -1,0 +1,50 @@
+{
+  "name": "schedule",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "date": {
+      "type": "number",
+      "default": 0
+    },
+    "timeform": {
+      "type": "number",
+      "default": 0
+    },
+    "timeto": {
+      "type": "number",
+      "default": 0
+    },
+    "state": {
+      "type": "number",
+      "default": 0
+    },
+    "active": {
+      "type": "number",
+      "default": 0
+    },
+    "user": {
+      "type": "string",
+      "default": ""
+    },
+    "channel": {
+      "type": "string",
+      "default": ""
+    },
+    "entrydate": {
+      "type": "date",
+      "defaultFn": "now"
+    },
+    "lasteditDate": {
+      "type": "date",
+      "defaultFn": "now"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

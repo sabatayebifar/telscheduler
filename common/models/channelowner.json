@@ -1,0 +1,26 @@
+{
+  "name": "channelowner",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "username": {
+      "type": "string",
+      "default": ""
+    },
+    "verifeid": {
+      "type": "number",
+      "default": 0
+    },
+    "channelName": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
